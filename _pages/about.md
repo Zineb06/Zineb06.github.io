@@ -21,10 +21,9 @@ I am passionate about bridging the gap between technology and business needs, wi
 
 I strongly believe that web technologies are meant to serve humanity-making knowledge, collaboration, and opportunities more accessible to all, as well as improving human decision-making. My interests include software engineering, distributed systems, data-driven applications, and the future of AI in shaping impactful solutions.
 
-You can reach me at houmaidi.zineb@gmail.com or at my university's email zineb.houmaidi@etud.univ-evry.fr.
+<!-- You can reach me at houmaidi.zineb@gmail.com or at my university's email zineb.houmaidi@etud.univ-evry.fr. -->
 
-Interests
-When I'm not coding, I enjoy contributing to open source projects, reading scientific papers, or engaging in volunteering work. One of my deep goals is to create a positive impact on humanity. For this reason, I volunteer with the association tous inclus, helping to develop SaaS solutions that promote inclusion for people with special needs, such as individuals with disabilities or the elderly. In addition, I also contribute to other associations like animal saving and well-being.
+When I'm not coding, I enjoy engaging in volunteering work. One of my deep goals is to create a positive impact on humanity. For this reason, I volunteer with the association tous inclus, helping to develop SaaS solutions that promote inclusion for people with special needs, such as individuals with disabilities or the elderly. In addition, I also contribute to other associations like animal saving and well-being.
 
 I strongly believe in continuous learning and using technology to make a meaningful difference in society. <br />
 
