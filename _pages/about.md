@@ -85,7 +85,7 @@ redirect_from:
 
 <div class="about-container">
   <p class="quote">
-  “From disorder, order emerges.” — <span>Ilya Prigogine</span>
+  “Simplicity is the ultimate sophistication.” — <span>L. da Vinci</span>
   </p>
 
   <div class="image-container">
