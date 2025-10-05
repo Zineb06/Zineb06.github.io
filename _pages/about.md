@@ -63,7 +63,7 @@ redirect_from:
   }
 
   .about-text strong {
-    color: #212121ff;
+    /* color: #212121ff; */
   }
 
   .contact {
@@ -100,8 +100,8 @@ redirect_from:
 
     <p>
       I’m passionate about bridging the gap between <strong>technology</strong> and <strong>business needs</strong>,
-      with a strong interest in <strong>software engineering</strong>, backend development, and distributed systems.
-      My academic and project experience allowed me to work with modern technologies and explore fields like operations research and system design.
+      with a strong interest in <strong>software engineering</strong>, backend development, and data analysis.
+      My academic and project experience allowed me to work with modern technologies and explore fields like system design and machine learning.
       I am particularly interested in <strong>generative AI</strong> and how it can transform the way we learn, create, and collaborate.
     </p>
 
@@ -113,8 +113,8 @@ redirect_from:
 
     <p>
       Outside of coding, I’m involved in <strong>volunteering</strong> to create a positive social impact.
-      I contribute to the association <strong>Tous Inclus</strong>, helping to develop SaaS platforms that promote inclusion
-      for people with special needs and the elderly. I also support associations focused on animal well-being.
+      I contribute to the association <a href="https://tousinclus-asso.fr">Tous Inclus</a>, helping to develop a SaaS that promote inclusion
+      for people with special needs and the elderly. I'm also a member of the association <a href="https://www.faune-alfort.org">Faune Alfort</a> that is focused on animal saving and well-being.
     </p>
 
     <p>
