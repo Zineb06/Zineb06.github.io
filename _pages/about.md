@@ -7,24 +7,123 @@ redirect_from:
   - /about.html
 ---
 
-<p align="center">
-  <em>"Simplicity is the ultimate sophistication"</em> - L. da Vinci
-</p>
+<style>
+  body {
+    font-family: "Inter", "Segoe UI", Roboto, sans-serif;
+    color: #fafafa;
+    background-color: #424141ff;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+  }
 
-<p align="center">
-  <img src="/images/" height = "200" width="400"/>
-</p>
+  .about-container {
+    max-width: 950px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: #555;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  }
 
-Hello! I am a Software Engineering student, currently in my last year. I hold a Master’s degree in Business Intelligence, where I specialized in data-driven decision-making and analytics.
+  .quote {
+    text-align: center;
+    font-style: italic;
+    color: #fafafa;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
 
-I am passionate about bridging the gap between technology and business needs, with a strong interest in software engineering, backend development, and distributed systems. My academic and project experience has allowed me to work with modern technologies and explore fields like operations research and system design. I am particularly interested in generative AI applications and how they can transform the way we learn, create, and interact with technology.
+  .quote span {
+    font-weight: 600;
+    color: #1a1a1a;
+  }
 
-I strongly believe that web technologies are meant to serve humanity-making knowledge, collaboration, and opportunities more accessible to all, as well as improving human decision-making. My interests include software engineering, distributed systems, data-driven applications, and the future of AI in shaping impactful solutions.
+  .image-container {
+    text-align: center;
+    margin: 1.5rem 0;
+  }
 
-<!-- You can reach me at houmaidi.zineb@gmail.com or at my university's email zineb.houmaidi@etud.univ-evry.fr. -->
+  .image-container img {
+    width: 80%;
+    max-width: 450px;
+    border-radius: 12px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
 
-When I'm not coding, I enjoy engaging in volunteering work. One of my deep goals is to create a positive impact on humanity. For this reason, I volunteer with the association tous inclus, helping to develop SaaS solutions that promote inclusion for people with special needs, such as individuals with disabilities or the elderly. In addition, I also contribute to other associations like animal saving and well-being.
+  .image-container img:hover {
+    transform: scale(1.03);
+  }
 
-I strongly believe in continuous learning and using technology to make a meaningful difference in society. <br />
+  .about-text {
+    color: #fafafa;;
+    text-align: justify;
+    font-size: 1.05rem;
+  }
 
-You can contact me at zineb.houmaidi at etud.univ-evry dot fr.
+  .about-text strong {
+    color: #212121ff;
+  }
+
+  .contact {
+    text-align: center;
+    margin-top: 2rem;
+    font-style: italic;
+    color: white;
+  }
+
+  a {
+    color: #007acc;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+<div class="about-container">
+  <p class="quote">
+  “From disorder, order emerges.” — <span>Ilya Prigogine</span>
+  </p>
+
+  <div class="image-container">
+    <img src="/images/chaos_theory.jpg" alt="Chaos Theory" />
+  </div>
+
+  <div class="about-text">
+    <p>
+      Hello! I am a <strong>Software Engineering student</strong>, currently in my final year. 
+      I hold a <strong>Master’s degree in Business Intelligence</strong>, where I specialized in data-driven decision-making and analytics.
+    </p>
+
+    <p>
+      I’m passionate about bridging the gap between <strong>technology</strong> and <strong>business needs</strong>,
+      with a strong interest in <strong>software engineering</strong>, backend development, and distributed systems.
+      My academic and project experience allowed me to work with modern technologies and explore fields like operations research and system design.
+      I am particularly interested in <strong>generative AI</strong> and how it can transform the way we learn, create, and collaborate.
+    </p>
+
+    <p>
+      I believe web technologies should serve humanity — making knowledge, collaboration, and opportunities more accessible,
+      while improving human decision-making. My interests include software engineering, distributed systems,
+      data-driven applications, and the evolving role of AI in building meaningful solutions.
+    </p>
+
+    <p>
+      Outside of coding, I’m involved in <strong>volunteering</strong> to create a positive social impact.
+      I contribute to the association <strong>Tous Inclus</strong>, helping to develop SaaS platforms that promote inclusion
+      for people with special needs and the elderly. I also support associations focused on animal well-being.
+    </p>
+
+    <p>
+      I’m deeply committed to <strong>continuous learning</strong> and using technology to make a meaningful difference in society.
+    </p>
+
+  </div>
+
+  <p class="contact">
+    📧 Contact me at <a href="mailto:zineb.houmaidi@etud.univ-evry.fr">zineb.houmaidi@etud.univ-evry.fr</a>
+  </p>
+</div>
