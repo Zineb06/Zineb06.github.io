@@ -18,13 +18,22 @@ redirect_from:
   }
 
   .about-container {
-    max-width: 950px;
+    max-width: 950px !important;
     margin: 3rem auto;
     padding: 2rem;
     background: #555;
     border-radius: 16px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
   }
+
+@media (max-width: 1024px) {
+  .about-container {
+    margin: 2rem auto;    
+    max-width: 90%;
+  }
+}
+
+
 
   .quote {
     text-align: center;
@@ -85,7 +94,7 @@ redirect_from:
 
 <div class="about-container">
   <p class="quote">
-  “Simplicity is the ultimate sophistication.” — <span>L. da Vinci</span>
+  “Simplicity is the ultimate sophistication.” — <span>L. D. Vinci</span>
   </p>
 
   <div class="image-container">

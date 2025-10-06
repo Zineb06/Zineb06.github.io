@@ -6,7 +6,7 @@
   @include container;
   @include clearfix;
   margin-top: 2em;
-  padding-left: 1em;
+  // padding-left: 1em;
   padding-right: 1em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
@@ -16,11 +16,34 @@
   }
 }
 
+.about-container {
+  @include full();                    
+ width: 100% !important;
+  max-width: 950px !important;                
+  margin-left: 10rem !important;       
+  margin-right: 2rem !important;      
+  padding: 2rem !important;
+  background: #555 !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.05) !important;
+  position: relative !important;     
+}
+
+@media (max-width: 1024px) {
+  .about-container {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 90% !important;
+  }
+}
+
 .page {
   @include breakpoint($large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
     @include suffix(2 of 12);
+     width: auto !important;
+     max-width: none !important;
   }
 
   .page__inner-wrap {
