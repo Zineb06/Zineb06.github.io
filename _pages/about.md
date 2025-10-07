@@ -87,8 +87,7 @@ redirect_from:
     text-decoration: none;
   }
 
-  a:hover {
-  }
+
 </style>
 
 <div class="about-container">

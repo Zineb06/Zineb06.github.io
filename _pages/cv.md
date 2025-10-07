@@ -93,9 +93,7 @@ redirect_from:
     text-decoration: none;
   }
 
-  a:hover {
-    text-decoration: underline;
-  }
+
 
 </style>
 
@@ -119,7 +117,7 @@ redirect_from:
 
   <div>
   <h3 class="position">Restaurant Service – Student Job</h3>
-  <span class="company"><b>Bistro Régent – Hôtel Ibis Style, Evry, France</b></span> <span class="date">Dec 2024 – Present</span>
+  <span class="company"><b>Bistro Régent – Hôtel Ibis Style, Evry, France</b></span> <span class="date">Nov 2024 – Present</span>
   <ul>
     <li>Worked as a waitress/barista, developing strong time management, teamwork, and customer service skills alongside academic commitments.</li>
     <li>Served a diverse range of international clients, which helped me become more open-minded, adaptable, and improved my English communication skills.</li>
@@ -134,7 +132,7 @@ redirect_from:
       <li>Implemented a bilevel optimization approach based on gradient descent aggregation(BDA).</li>
       <li>Applied the method to the HAM10000 (skin cancer) dataset to optimize CNN hyperparameters, improving lesion detection accuracy.</li>
       <li>Conducted a benchmark comparing the method’s performance across 4 datasets against 3 other bilevel optimization techniques.</li>
-      <li>Research conducted under the supervision of <a href="mailto:m.nachaoui@usms.ma">Professor Mourad Nachaoui</a>, head of the Artificial Intelligence & Digital Computing Master’s program at Sultan Moulay Slimane University and a professor at the University of Nantes.</li>
+      <li>Research conducted under the supervision of Professor <a href="mailto:m.nachaoui@usms.ma"> Mourad Nachaoui</a>, head of the Artificial Intelligence & Digital Computing Master’s program at Sultan Moulay Slimane University and a professor at the University of Nantes.</li>
     </ul>
   </div>
 
@@ -176,6 +174,41 @@ redirect_from:
       <li>Scientific International Baccalaureate in Mathematics, French Option</li>
     </ul>
   </div>
+
+  <h2>Skills</h2>
+  <ul>
+  <li></li>
+    <!-- <li><b>Programming:</b> JavaScript, TypeScript,Java, PHP, Python (TensorFlow, Keras…), R, C.</li>
+    <li><b>Frameworks:</b> React.js, Angular, SpringBoot, FastAPI, Laravel, Symfony, AJAX.</li>
+    <li><b>Data Science:</b> Business Intelligence, Machine Learning, Deep Learning, Data Warehousing.</li>
+    <li><b>Databases:</b> MongoDB, MySQL, Firebase, T-SQL, Oracle.</li>
+    <li><b>Tools:</b> Git, Docker, WordPress, Jupyter Notebook, Merise, UML, PowerBI, Figma.</li> -->
+  </ul>
+
+  <h2>Certificates</h2>
+  <ul>
+    <li><a href="https://www.coursera.org/account/accomplishments/verify/77N4KJQDMUZ5" target="_blank"><b>Neural Networks and Deep Learning</b></a></li>
+    <li><a href="https://www.coursera.org/account/accomplishments/verify/CG3T7EB977DD" target="_blank"><b>Machine Learning with Python</b></a></li>
+    <li><a href="https://www.coursera.org/account/accomplishments/verify/9BS01PKJVCFA" target="_blank"><b>Introduction to Git and GitHub</b></a></li>
+    <li><a href="https://www.coursera.org/account/accomplishments/verify/GWRNF4VMK37Q" target="_blank"><b>Getting Started with Data Warehousing and BI Analytics</b></a></li>
+  </ul>
+
+  <h2>Languages</h2>
+  <ul>
+    <li>French – Bilingual</li>
+    <li>English – Fluent</li>
+    <li>Spanish - Beginner</li>
+    <li>Arabic – Native</li>
+  </ul>
+
+  <h2>Interests</h2>
+  <ul>
+    <li></li>
+    <!-- <li></li>
+    <li></li>
+    <li></li>
+    <li></li> -->
+  </ul>
 
   <p class="contact">
     📧 Contact: <a href="mailto:zineb.houmaidi@etud.univ-evry.fr">zineb.houmaidi@etud.univ-evry.fr</a>
