@@ -10,8 +10,6 @@ redirect_from:
 <style>
   body {
     font-family: "Inter", "Segoe UI", Roboto, sans-serif;
-    /* color: #fafafa; */
-    /* background-color: #424141ff; */
     line-height: 1.7;
     margin: 0;
     padding: 0;
@@ -21,31 +19,27 @@ redirect_from:
     max-width: 950px !important;
     margin: 3rem auto;
     padding: 2rem;
-    /* background: #555; */
     border-radius: 16px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
   }
 
-@media (max-width: 1024px) {
-  .about-container {
-    margin: 2rem auto;    
-    max-width: 90%;
+  @media (max-width: 1024px) {
+    .about-container {
+      margin: 2rem auto;
+      max-width: 90%;
+    }
   }
-}
-
-
 
   .quote {
     text-align: center;
     font-style: italic;
-    /* color: #fafafa; */
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
+    transition: color 0.3s ease;
   }
 
   .quote span {
     font-weight: 600;
-    /* color: #1a1a1a; */
   }
 
   .image-container {
@@ -66,33 +60,25 @@ redirect_from:
   }
 
   .about-text {
-    /* color: #fafafa;; */
     text-align: justify;
     font-size: 1.05rem;
-  }
-
-  .about-text strong {
-    /* color: #212121ff; */
   }
 
   .contact {
     text-align: center;
     margin-top: 2rem;
     font-style: italic;
-    /* color: white; */
   }
 
   a {
     color: #007acc;
     text-decoration: none;
   }
-
-
 </style>
 
 <div class="about-container">
-  <p class="quote">
-  “Simplicity is the ultimate sophistication.” — <span>L. D. Vinci</span>
+  <p class="quote" id="quote">
+    “Simplicity is the ultimate sophistication.” — <span>L. D. Vinci</span>
   </p>
 
   <div class="image-container">
@@ -134,3 +120,24 @@ redirect_from:
     📧 Contact me at <a href="mailto:zineb.houmaidi@etud.univ-evry.fr">zineb.houmaidi@etud.univ-evry.fr</a>
   </p>
 </div>
+
+<script>
+  const quotes = [
+    "“Simplicity is the ultimate sophistication.” — L. D. Vinci",
+  ];
+
+  const colors = ["#007acc", "#2c3e50", "#16a085", "#8e44ad", "#c0392b"];
+  const quoteElement = document.getElementById("quote");
+
+  quoteElement.addEventListener("mouseenter", () => {
+    const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+    quoteElement.style.color = randomColor;
+    quoteElement.innerHTML = randomQuote;
+  });
+
+  quoteElement.addEventListener("mouseleave", () => {
+    quoteElement.style.color = "";
+    quoteElement.innerHTML = "“Simplicity is the ultimate sophistication.” — <span>L. D. Vinci</span>";
+  });
+</script>

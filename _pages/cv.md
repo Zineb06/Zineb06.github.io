@@ -26,6 +26,14 @@ redirect_from:
   h1, h2, h3 {
     color: black;
     margin-bottom: 0.5em;
+    transition: all 0.6s ease;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  h1.visible, h2.visible, h3.visible {
+    opacity: 1;
+    transform: translateY(0);
   }
 
   h1 {
@@ -58,13 +66,6 @@ redirect_from:
     text-align: justify;
   }
 
-  .section-title {
-    color: #007acc;
-    margin-top: 2rem;
-    margin-bottom: 0.5rem;
-    font-weight: 600;
-  }
-
   .position {
     font-weight: 600;
     color: #242424ff;
@@ -79,22 +80,23 @@ redirect_from:
     color: #888585ff;
   }
 
-  .skills ul {
-    columns: 2;
+  a {
+    color: #007acc;
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+
+  a:hover {
+    color: white;
+    background-color: #007acc;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
   }
 
   .contact {
     margin-top: 2rem;
     font-style: italic;
   }
-
-  a {
-    color: #007acc;
-    text-decoration: none;
-  }
-
-
-
 </style>
 
 <div class="cv-container">
@@ -168,7 +170,7 @@ redirect_from:
   </div>
 
   <div>
-    <h3 class="position"> Moulay Rachid High School</h3>
+    <h3 class="position">Moulay Rachid High School</h3>
     <span class="company"><b>K. Tadla, Morocco</b></span> <span class="date">June 2018</span>
     <ul>
       <li>Scientific International Baccalaureate in Mathematics, French Option</li>
@@ -177,12 +179,11 @@ redirect_from:
 
   <h2>Skills</h2>
   <ul>
-  <li></li>
-    <!-- <li><b>Programming:</b> JavaScript, TypeScript,Java, PHP, Python (TensorFlow, Keras…), R, C.</li>
-    <li><b>Frameworks:</b> React.js, Angular, SpringBoot, FastAPI, Laravel, Symfony, AJAX.</li>
+    <li><b>Programming:</b> JavaScript, TypeScript, Java, PHP, Python (TensorFlow, Keras…), R, C.</li>
+    <li><b>Frameworks:</b> React.js, Angular, Spring Boot, FastAPI, Laravel, Symfony, AJAX.</li>
     <li><b>Data Science:</b> Business Intelligence, Machine Learning, Deep Learning, Data Warehousing.</li>
     <li><b>Databases:</b> MongoDB, MySQL, Firebase, T-SQL, Oracle.</li>
-    <li><b>Tools:</b> Git, Docker, WordPress, Jupyter Notebook, Merise, UML, PowerBI, Figma.</li> -->
+    <li><b>Tools:</b> Git, Docker, WordPress, Jupyter Notebook, Merise, UML, Power BI, Figma.</li>
   </ul>
 
   <h2>Certificates</h2>
@@ -197,21 +198,57 @@ redirect_from:
   <ul>
     <li>French – Bilingual</li>
     <li>English – Fluent</li>
-    <li>Spanish - Beginner</li>
+    <li>Spanish – Beginner</li>
     <li>Arabic – Native</li>
   </ul>
 
   <h2>Interests</h2>
   <ul>
-    <li></li>
-    <!-- <li></li>
-    <li></li>
-    <li></li>
-    <li></li> -->
+    <li>Volunteering and social impact</li>
+    <li>AI ethics and responsible technology</li>
+    <li>Open-source software</li>
+    <li>Music and digital art</li>
   </ul>
 
   <p class="contact">
     📧 Contact: <a href="mailto:zineb.houmaidi@etud.univ-evry.fr">zineb.houmaidi@etud.univ-evry.fr</a>
   </p>
-
 </div>
+
+<script>
+  // Animate section titles on scroll
+  const titles = document.querySelectorAll("h1, h2, h3");
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) entry.target.classList.add("visible");
+    });
+  }, { threshold: 0.2 });
+
+  titles.forEach(title => observer.observe(title));
+
+  // Add tooltip effect for certificates
+  const certLinks = document.querySelectorAll("h2 + ul a");
+  certLinks.forEach(link => {
+    link.addEventListener("mouseenter", () => {
+      const tooltip = document.createElement("span");
+      tooltip.textContent = "Click to verify on Coursera";
+      tooltip.style.position = "absolute";
+      tooltip.style.background = "#007acc";
+      tooltip.style.color = "white";
+      tooltip.style.padding = "4px 8px";
+      tooltip.style.borderRadius = "6px";
+      tooltip.style.fontSize = "0.8rem";
+      tooltip.style.top = `${link.getBoundingClientRect().top - 30}px`;
+      tooltip.style.left = `${link.getBoundingClientRect().left}px`;
+      tooltip.style.zIndex = "1000";
+      tooltip.classList.add("tooltip");
+      document.body.appendChild(tooltip);
+      link.dataset.tooltipId = "tooltip";
+    });
+
+    link.addEventListener("mouseleave", () => {
+      const tooltip = document.querySelector(".tooltip");
+      if (tooltip) tooltip.remove();
+    });
+  });
+</script>
