@@ -10,8 +10,6 @@ redirect_from:
 <style>
   body {
     font-family: "Inter", "Segoe UI", Roboto, sans-serif;
-    /* background-color: #f4f4f4;
-    color: #333; */
     line-height: 1.7;
     margin: 0;
     padding: 0;
@@ -21,13 +19,12 @@ redirect_from:
     max-width: 1000px;
     margin: 4rem auto;
     padding: 2rem 3rem;
-    /* background: #fff; */
     border-radius: 12px;
     box-shadow: 0 6px 18px rgba(0,0,0,0.08);
   }
 
   h1, h2, h3 {
-    /* color: #222; */
+    color: black;
     margin-bottom: 0.5em;
   }
 
@@ -50,10 +47,15 @@ redirect_from:
   ul {
     padding-left: 1.2em;
     margin-bottom: 1rem;
+    text-align: justify;
   }
 
   li {
     margin-bottom: 0.5em;
+  }
+
+  p {
+    text-align: justify;
   }
 
   .section-title {
@@ -65,17 +67,16 @@ redirect_from:
 
   .position {
     font-weight: 600;
-    color: #333;
+    color: #242424ff;
   }
 
   .company {
     font-style: italic;
-    color: #555;
   }
 
   .date {
     float: right;
-    color: #888;
+    color: #888585ff;
   }
 
   .skills ul {
@@ -85,7 +86,6 @@ redirect_from:
   .contact {
     margin-top: 2rem;
     font-style: italic;
-    color: #444;
   }
 
   a {
@@ -102,74 +102,78 @@ redirect_from:
 <div class="cv-container">
 
   <h1>Zineb HOUMAIDI</h1>
-  <p>Étudiante en M2 MIAGE ingénierie logicielle à la recherche d’un stage de 6 mois</p>
+  <p>Graduate student in Software Engineering (MIAGE), seeking a 6-month internship opportunity.</p>
 
-  <h2>Experience</h2>
+  <h2>Professional Experience</h2>
 
   <div>
-    <h3 class="position">Développeuse Web FullStack - Stage</h3>
-    <span class="company">Chronnocorp, Full Remote</span> <span class="date">Mai 2025 – Juillet 2025</span>
+    <h3 class="position">Full-Stack Web Developer – Internship</h3>
+    <span class="company"><b>Chronnocorp, Full Remote</b></span> <span class="date">May 2025 – July 2025</span>
     <ul>
-      <li>Technologies : fastapi, react.js</li>
-      <li>Développement d’une application web aidant les utilisateurs à trouver un logement grâce aux avis et notations des anciens locataires.</li>
-      <li>Conception et mise en place d’API sécurisées (fastapi, jwt) et intégration frontend React, améliorant la sécurité et l’expérience utilisateur.</li>
-      <li>Réalisation de tests unitaires et end-to-end, garantissant la préparation du projet pour la mise en production.</li>
+      <li><b>Technologies:</b> FastAPI, React.js</li>
+      <li>Developed a web application helping users find housing through reviews and ratings from former tenants.</li>
+      <li>Designed and implemented secure APIs (FastAPI, JWT) and integrated React frontend components, enhancing security and user experience.</li>
+      <li>Performed unit and end-to-end testing to ensure production readiness.</li>
     </ul>
   </div>
 
   <div>
-    <h3 class="position">Service en Restauration - Job Étudiant</h3>
-    <span class="company">Bistro Régent - Hôtel ibis style, Evry, France</span> <span class="date">Déc 2024 – Présent</span>
+  <h3 class="position">Restaurant Service – Student Job</h3>
+  <span class="company"><b>Bistro Régent – Hôtel Ibis Style, Evry, France</b></span> <span class="date">Dec 2024 – Present</span>
+  <ul>
+    <li>Worked as a waitress/barista, developing strong time management, teamwork, and customer service skills alongside academic commitments.</li>
+    <li>Served a diverse range of international clients, which helped me become more open-minded, adaptable, and improved my English communication skills.</li>
+  </ul>
+  </div>
+
+  <div>
+    <h3 class="position">Research in Data Science - Academic Internship</h3>
+    <span class="company"><b>TIAD Laboratory, Beni Mellal, Morocco</b></span> <span class="date">Jan 2024 – July 2024</span>
     <ul>
-      <li>Expérience en tant que serveuse, développant des compétences en gestion du temps, sens du service et travail en équipe.</li>
+      <li><b>Technologies:</b> Python, PyTorch, TensorFlow</li>
+      <li>Implemented a bilevel optimization approach based on gradient descent aggregation(BDA).</li>
+      <li>Applied the method to the HAM10000 (skin cancer) dataset to optimize CNN hyperparameters, improving lesion detection accuracy.</li>
+      <li>Conducted a benchmark comparing the method’s performance across 4 datasets against 3 other bilevel optimization techniques.</li>
+      <li>Research conducted under the supervision of <a href="mailto:m.nachaoui@usms.ma">Professor Mourad Nachaoui</a>, head of the Artificial Intelligence & Digital Computing Master’s program at Sultan Moulay Slimane University and a professor at the University of Nantes.</li>
     </ul>
   </div>
 
   <div>
-    <h3 class="position">Recherche en Data Science - Stage Académique</h3>
-    <span class="company">Laboratoire TIAD, Beni Mellal, Maroc</span> <span class="date">Jan 2024 – Juillet 2024</span>
+    <h3 class="position">Full-Stack Web Developer – Academic Internship</h3>
+    <span class="company"><b>Faculty of Science and Technology, Beni Mellal, Morocco</b></span> <span class="date">Apr 2022 – Aug 2022</span>
     <ul>
-      <li>Technologies : python, pytorch, tensorflow</li>
-      <li>Implémentation d’une approche d’optimisation bilevel basée sur les gradients (BDA).</li>
-      <li>Application à la base de données HAM10000 (skin cancer) pour améliorer les hyperparamètres d’un modèle CNN.</li>
-      <li>Benchmark comparant l’efficacité de l’approche face à d’autres méthodes sur 4 bases de données.</li>
-    </ul>
-  </div>
-
-  <div>
-    <h3 class="position">Développeuse Web FullStack - Stage Académique</h3>
-    <span class="company">FST Beni Mellal, Maroc</span> <span class="date">Avril 2022 – Août 2022</span>
-    <ul>
-      <li>Technologies : php, ajax, javascript</li>
-      <li>Conception et développement d’une application web de prise de rendez-vous médicaux et de téléconsultation.</li>
-      <li>Implémentation d’une messagerie instantanée et d’un calendrier dynamique avec AJAX pour gérer les disponibilités médicales.</li>
+      <li><b>Technologies:</b> PHP, AJAX, JavaScript</li>
+      <li>Designed and developed a web application for medical appointment booking and remote consultation.</li>
+      <li>Implemented a real-time messaging system and dynamic calendar using AJAX for real-time availability and scheduling management.</li>
     </ul>
   </div>
 
   <h2>Education</h2>
+
   <div>
-    <h3 class="position">Université Evry Paris Saclay</h3>
-    <span class="company">Evry, France</span> <span class="date">2024 – 2026</span>
+    <h3 class="position">University of Évry Paris Saclay</h3>
+    <span class="company"><b>Évry, France</b></span> <span class="date">2024 – 2026</span>
     <ul>
-      <li>Master MIAGE - Ingénierie logicielle pour le web (Représentante de la promotion M2 MIAGE 2025-2026)</li>
+      <li>Master’s in MIAGE – Software Engineering for the Web</li>
+      <li>Class Representative of the M2 MIAGE 2025–2026</li>
     </ul>
   </div>
 
   <div>
-    <h3 class="position">Université Sultan Mulay Sliman</h3>
-    <span class="company">Beni Mellal, Maroc</span> <span class="date">2018 – 2024</span>
+    <h3 class="position">Sultan Moulay Slimane University</h3>
+    <span class="company"><b>Beni Mellal, Morocco</b></span> <span class="date">2018 – 2024</span>
     <ul>
-      <li>Master Informatique Décisionnelle</li>
-      <li>Licence Sciences et Techniques en Informatique</li>
-      <li>DEUST en MIPC : Diplôme en Mathématiques, Informatique, Physique, Chimie</li>
+      <li>Master’s Degree in Business Intelligence</li>
+      <li>Bachelor’s Degree in Computer Science and Technology</li>
+      <li>DEUST in Mathematics, Computer Science, Physics, and Chemistry (MIPC)</li>
     </ul>
   </div>
 
   <div>
-    <h3 class="position">Lycée Mulay Rachid</h3>
-    <span class="company">Kasbat Tadla</span> <span class="date">Juin 2018</span>
+    <h3 class="position"> Moulay Rachid High School</h3>
+    <span class="company"><b>K. Tadla, Morocco</b></span> <span class="date">June 2018</span>
     <ul>
-      <li>Baccalauréat Sciences Mathématiques A Internationale option français</li>
+      <li>Scientific International Baccalaureate in Mathematics, French Option</li>
     </ul>
   </div>
 
