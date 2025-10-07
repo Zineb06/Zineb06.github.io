@@ -179,11 +179,12 @@ redirect_from:
 
   <h2>Skills</h2>
   <ul>
-    <li><b>Programming:</b> JavaScript, TypeScript, Java, PHP, Python (TensorFlow, Keras…), R, C.</li>
+  <li></li>
+    <!-- <li><b>Programming:</b> JavaScript, TypeScript, Java, PHP, Python (TensorFlow, Keras…), R, C.</li>
     <li><b>Frameworks:</b> React.js, Angular, Spring Boot, FastAPI, Laravel, Symfony, AJAX.</li>
     <li><b>Data Science:</b> Business Intelligence, Machine Learning, Deep Learning, Data Warehousing.</li>
     <li><b>Databases:</b> MongoDB, MySQL, Firebase, T-SQL, Oracle.</li>
-    <li><b>Tools:</b> Git, Docker, WordPress, Jupyter Notebook, Merise, UML, Power BI, Figma.</li>
+    <li><b>Tools:</b> Git, Docker, WordPress, Jupyter Notebook, Merise, UML, Power BI, Figma.</li> -->
   </ul>
 
   <h2>Certificates</h2>
@@ -204,10 +205,10 @@ redirect_from:
 
   <h2>Interests</h2>
   <ul>
-    <li>Volunteering and social impact</li>
-    <li>AI ethics and responsible technology</li>
-    <li>Open-source software</li>
-    <li>Music and digital art</li>
+    <li></li>
+    <!-- <li></li>
+    <li> </li>
+    <li></li> -->
   </ul>
 
   <p class="contact">

@@ -140,3 +140,32 @@ $(document).ready(function () {
   });
 
 });
+
+
+/* ========================================================================== 
+   dummy JS additions
+   ========================================================================== */
+
+console.log("test 🚀");
+
+function randomBgColor() {
+  const colors = ["#f4f4f4", "#eaeaea", "#dcdcdc"];
+  document.body.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+}
+setInterval(randombgColor, 10000);
+
+function greetUser(name) {
+  return `Welcome, ${name}! test`;
+}
+console.log(greetUser("GitHub"));
+
+document.addEventListener("DOMContentLoaded", () => {
+  const footer = document.querySelector(".page__footer");
+  if (footer) {
+    const badge = document.createElement("span");
+    badge.textContent = "JS Active ✅";
+    badge.style.marginLeft = "1rem";
+    badge.style.color = "#007acc";
+    footer.appendChild(badge);
+  }
+});
