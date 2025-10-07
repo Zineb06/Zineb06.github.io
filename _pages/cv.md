@@ -27,14 +27,8 @@ redirect_from:
     color: black;
     margin-bottom: 0.5em;
     transition: all 0.6s ease;
-    opacity: 0;
-    transform: translateY(20px);
   }
 
-  h1.visible, h2.visible, h3.visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
 
   h1 {
     font-size: 2rem;
@@ -87,8 +81,7 @@ redirect_from:
   }
 
   a:hover {
-    color: white;
-    background-color: #007acc;
+    color: blue;
     padding: 0.2em 0.4em;
     border-radius: 4px;
   }
@@ -218,14 +211,14 @@ redirect_from:
 
 <script>
   // Animate section titles on scroll
-  const titles = document.querySelectorAll("h1, h2, h3");
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) entry.target.classList.add("visible");
-    });
-  }, { threshold: 0.2 });
+  // const titles = document.querySelectorAll("");
+  // const observer = new IntersectionObserver(entries => {
+  //   entries.forEach(entry => {
+  //     if (entry.isIntersecting) entry.target.classList.add("visible");
+  //   });
+  // }, { threshold: 0.2 });
 
-  titles.forEach(title => observer.observe(title));
+  // titles.forEach(title => observer.observe(title));
 
   // Add tooltip effect for certificates
   const certLinks = document.querySelectorAll("h2 + ul a");
