@@ -152,7 +152,7 @@ function randomBgColor() {
   const colors = ["#f4f4f4", "#eaeaea", "#dcdcdc"];
   document.body.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
 }
-setInterval(randombgColor, 10000);
+setInterval(randombgcolor, 10000);
 
 function greetUser(name) {
   return `Welcome, ${name}! test`;
