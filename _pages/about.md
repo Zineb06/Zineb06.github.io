@@ -82,7 +82,7 @@ redirect_from:
   </p>
 
   <div class="image-container">
-    <img src="/images/chaos_theory.jpg" alt="Chaos Theory" />
+    <!-- <img src="/images/chaos_theory.jpg" alt="Chaos Theory" /> -->
   </div>
 
   <div class="about-text">
@@ -95,13 +95,7 @@ redirect_from:
       I’m passionate about bridging the gap between technology and business needs,
       with a strong interest in software engineering, backend development, and data analysis.
       My academic and project experience allowed me to work with modern technologies and explore fields like system design and machine learning.
-      I am particularly interested in generative AI and how it can transform the way we learn, create, and collaborate.
-    </p>
-
-    <p>
-      I believe web technologies should serve humanity-making knowledge, collaboration, and opportunities more accessible,
-      while improving human decision-making. My interests include software engineering, distributed systems,
-      data-driven applications, and the evolving role of AI in building meaningful solutions.
+      I am particularly interested in generative AI and how it can transform the way we learn, create, and collaborate. I believe web technologies should serve humanity-making knowledge, collaboration, and opportunities more accessible, while improving human decision-making.
     </p>
 
     <p>
