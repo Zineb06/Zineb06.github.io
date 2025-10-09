@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Face detection and sentiment analysis"
+excerpt: "Developement of a system capable of detecting a face, identifying the person, and analyse his emotion.<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
