@@ -110,14 +110,14 @@ redirect_from:
     </ul>
   </div>
 
-  <div>
+  <!-- <div>
   <h3 class="position">Restaurant Service – Student Job</h3>
   <span class="company"><b>Bistro Régent – Hôtel Ibis Style, Evry, France</b></span> <span class="date">Nov 2024 – Present</span>
   <ul>
     <li>Worked as a waitress/barista, developing strong time management, teamwork, and customer service skills alongside academic commitments.</li>
     <li>Served a diverse range of international clients, which helped me become more open-minded, adaptable, and improved my English communication skills.</li>
   </ul>
-  </div>
+  </div> -->
 
   <div>
     <h3 class="position">Research in Data Science - Academic Internship</h3>
