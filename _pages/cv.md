@@ -95,7 +95,7 @@ redirect_from:
 <div class="cv-container">
 
   <h1>Zineb HOUMAIDI</h1>
-  <p>Graduate student in Software Engineering (MIAGE), seeking a 6-month internship opportunity.</p>
+  <p>Graduate student in Software Engineering (MIAGE)</p>
 
   <h2>Professional Experience</h2>
 
@@ -120,6 +120,14 @@ redirect_from:
   </div> -->
 
   <div>
+  <h3 class="position">FullStack Web Developer SpringBoot/ Angular – Internship</h3>
+  <span class="company"><b>HiziConnect, Full Remote, Morocco</b></span> <span class="date">June 2023 - Sept 2023</span>
+  <ul>
+    <li>Developed a web application for managing a primary school system and services using springboot and angular frameworks</li>
+  </ul>
+  </div>
+
+  <div>
     <h3 class="position">Research in Data Science - Academic Internship</h3>
     <span class="company"><b>TIAD Laboratory, Beni Mellal, Morocco</b></span> <span class="date">Jan 2024 – July 2024</span>
     <ul>
@@ -132,7 +140,7 @@ redirect_from:
   </div>
 
   <div>
-    <h3 class="position">Full-Stack Web Developer – Academic Internship</h3>
+    <h3 class="position">Full-Stack Web Developer – Academic Internship (final year project)</h3>
     <span class="company"><b>Faculty of Science and Technology, Beni Mellal, Morocco</b></span> <span class="date">Apr 2022 – Aug 2022</span>
     <ul>
       <li><b>Technologies:</b> PHP, AJAX, JavaScript</li>
@@ -170,15 +178,15 @@ redirect_from:
     </ul>
   </div>
 
-  <h2>Skills</h2>
+  <!-- <h2>Skills</h2>
   <ul>
   <li></li>
-    <!-- <li><b>Programming:</b> JavaScript, TypeScript, Java, PHP, Python (TensorFlow, Keras…), R, C.</li>
+    <li><b>Programming:</b> JavaScript, TypeScript, Java, PHP, Python (TensorFlow, Keras…), R, C.</li>
     <li><b>Frameworks:</b> React.js, Angular, Spring Boot, FastAPI, Laravel, Symfony, AJAX.</li>
     <li><b>Data Science:</b> Business Intelligence, Machine Learning, Deep Learning, Data Warehousing.</li>
     <li><b>Databases:</b> MongoDB, MySQL, Firebase, T-SQL, Oracle.</li>
-    <li><b>Tools:</b> Git, Docker, WordPress, Jupyter Notebook, Merise, UML, Power BI, Figma.</li> -->
-  </ul>
+    <li><b>Tools:</b> Git, Docker, WordPress, Jupyter Notebook, Merise, UML, Power BI, Figma.</li> 
+  </ul>-->
 
   <h2>Certificates</h2>
   <ul>
@@ -196,13 +204,13 @@ redirect_from:
     <li>Arabic – Native</li>
   </ul>
 
-  <h2>Interests</h2>
+  <!--<h2>Interests</h2>
   <ul>
     <li></li>
-    <!-- <li></li>
+     <li></li>
     <li> </li>
-    <li></li> -->
-  </ul>
+    <li></li>
+  </ul> -->
 
   <p class="contact">
     📧 Contact: <a href="mailto:zineb.houmaidi@etud.univ-evry.fr">zineb.houmaidi@etud.univ-evry.fr</a>
